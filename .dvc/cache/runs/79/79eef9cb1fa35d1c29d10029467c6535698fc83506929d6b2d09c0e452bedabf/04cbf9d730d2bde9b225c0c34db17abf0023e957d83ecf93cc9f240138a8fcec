@@ -1,0 +1,20 @@
+cmd: python src/clean_data.py
+deps:
+- path: data/raw
+  hash: md5
+  md5: 3016b8d178271b377a7db557cfffbaa5.dir
+  size: 500167
+  nfiles: 10
+- path: src/clean_data.py
+  hash: md5
+  md5: 2863ee33c5863a4812e0e8e398e9a440
+  size: 1226
+outs:
+- path: data/processed/test_data.pkl
+  hash: md5
+  md5: 9907d00e94b3d3088a1ccb5247231eef
+  size: 39563
+- path: data/processed/train_data.pkl
+  hash: md5
+  md5: 963e057dead22e03b1a60cf28c9fa3c6
+  size: 152403

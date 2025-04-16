@@ -1,0 +1,132 @@
+2025-05-21 21:57:00,571 - INFO - __main__ - Model training started.
+2025-05-21 21:57:00,572 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-21 21:57:00,603 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-21 21:57:00,603 - INFO - __main__ - Preprocessing data...
+2025-05-21 21:57:00,613 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-21 21:57:00,630 - INFO - __main__ - Data preprocessed.
+2025-05-21 21:57:00,630 - INFO - __main__ - Training random_forest model...
+2025-05-21 21:57:00,935 - INFO - __main__ - Model trained successfully.
+2025-05-21 21:57:00,944 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-21 21:57:00,990 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-21 21:57:00,990 - INFO - __main__ - Model training completed successfully.
+2025-05-21 21:57:12,260 - INFO - __main__ - Model training started.
+2025-05-21 21:57:12,260 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-21 21:57:12,283 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-21 21:57:12,283 - INFO - __main__ - Preprocessing data...
+2025-05-21 21:57:12,288 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-21 21:57:12,299 - INFO - __main__ - Data preprocessed.
+2025-05-21 21:57:12,299 - INFO - __main__ - Training random_forest model...
+2025-05-21 21:57:12,498 - INFO - __main__ - Model trained successfully.
+2025-05-21 21:57:12,498 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-21 21:57:12,522 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-21 21:57:12,522 - INFO - __main__ - Model training completed successfully.
+2025-05-21 22:04:12,420 - INFO - __main__ - Model training started.
+2025-05-21 22:04:12,420 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-21 22:04:12,454 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-21 22:04:12,454 - INFO - __main__ - Preprocessing data...
+2025-05-21 22:04:12,459 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-21 22:04:12,470 - INFO - __main__ - Data preprocessed.
+2025-05-21 22:04:12,470 - INFO - __main__ - Training random_forest model...
+2025-05-21 22:04:12,635 - INFO - __main__ - Model trained successfully.
+2025-05-21 22:04:12,635 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-21 22:04:12,658 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-21 22:04:12,658 - INFO - __main__ - Model training completed successfully.
+2025-05-21 22:07:06,430 - INFO - __main__ - Model training started.
+2025-05-21 22:07:06,431 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-21 22:07:06,454 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-21 22:07:06,454 - INFO - __main__ - Preprocessing data...
+2025-05-21 22:07:06,460 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-21 22:07:06,472 - INFO - __main__ - Data preprocessed.
+2025-05-21 22:07:06,472 - INFO - __main__ - Training random_forest model...
+2025-05-21 22:07:06,653 - INFO - __main__ - Model trained successfully.
+2025-05-21 22:07:06,653 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-21 22:07:06,677 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-21 22:07:06,677 - INFO - __main__ - Model training completed successfully.
+2025-05-22 02:09:54,200 - INFO - __main__ - Model training started.
+2025-05-22 02:09:54,201 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:09:54,219 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-22 02:09:54,220 - INFO - __main__ - Preprocessing data...
+2025-05-22 02:09:54,223 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-22 02:09:54,230 - INFO - __main__ - Data preprocessed.
+2025-05-22 02:09:54,230 - INFO - __main__ - Training random_forest model...
+2025-05-22 02:09:54,326 - INFO - __main__ - Model trained successfully.
+2025-05-22 02:09:54,326 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:09:54,343 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-22 02:09:54,343 - INFO - __main__ - Model training completed successfully.
+2025-05-22 02:14:43,346 - INFO - __main__ - Model training started.
+2025-05-22 02:14:43,346 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:14:43,368 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-22 02:14:43,368 - INFO - __main__ - Preprocessing data...
+2025-05-22 02:14:43,371 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-22 02:14:43,376 - INFO - __main__ - Data preprocessed.
+2025-05-22 02:14:43,376 - INFO - __main__ - Training random_forest model...
+2025-05-22 02:14:43,490 - INFO - __main__ - Model trained successfully.
+2025-05-22 02:14:43,490 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:14:43,504 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-22 02:14:43,504 - INFO - __main__ - Model training completed successfully.
+2025-05-22 02:22:05,248 - INFO - __main__ - Model training started.
+2025-05-22 02:22:05,248 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:22:05,266 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-22 02:22:05,266 - INFO - __main__ - Preprocessing data...
+2025-05-22 02:22:05,268 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-22 02:22:05,273 - INFO - __main__ - Data preprocessed.
+2025-05-22 02:22:05,273 - INFO - __main__ - Training random_forest model...
+2025-05-22 02:22:05,391 - INFO - __main__ - Model trained successfully.
+2025-05-22 02:22:05,391 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:22:05,406 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-22 02:22:05,406 - INFO - __main__ - Model training completed successfully.
+2025-05-22 02:24:58,058 - INFO - __main__ - Model training started.
+2025-05-22 02:24:58,059 - INFO - __main__ - Loading processed data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:24:58,089 - INFO - __main__ - Loaded data shape: (395, 6)
+2025-05-22 02:24:58,089 - INFO - __main__ - Preprocessing data...
+2025-05-22 02:24:58,092 - INFO - __main__ - Train size: 316, Test size: 79
+2025-05-22 02:24:58,097 - INFO - __main__ - Data preprocessed.
+2025-05-22 02:24:58,097 - INFO - __main__ - Training random_forest model...
+2025-05-22 02:24:58,204 - INFO - __main__ - Model trained successfully.
+2025-05-22 02:24:58,205 - INFO - __main__ - Saving model artifacts to: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:24:58,222 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-22 02:24:58,222 - INFO - __main__ - Model training completed successfully.
+2025-05-25 19:11:30,097 - INFO - __main__ - Model training started.
+2025-05-25 19:11:30,106 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:11:30,127 - INFO - __main__ - Loaded data shape: (2239, 6)
+2025-05-25 19:11:30,127 - INFO - __main__ - Preprocessing data...
+2025-05-25 19:11:30,131 - INFO - __main__ - Train size: 1791, Test size: 448
+2025-05-25 19:11:30,136 - INFO - __main__ - Data preprocessed.
+2025-05-25 19:11:30,136 - INFO - __main__ - Training random_forest model...
+2025-05-25 19:11:30,445 - INFO - __main__ - Model trained successfully.
+2025-05-25 19:11:30,445 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:11:30,464 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-25 19:11:30,464 - INFO - __main__ - Model training completed successfully.
+2025-05-25 19:19:00,849 - INFO - __main__ - Model training started.
+2025-05-25 19:19:00,849 - INFO - __main__ - Loading processed data from: data/processed/train.csv
+2025-05-25 19:19:00,855 - INFO - __main__ - Loaded data shape: (2239, 6)
+2025-05-25 19:19:00,855 - INFO - __main__ - Preprocessing data...
+2025-05-25 19:19:00,859 - INFO - __main__ - Train size: 1791, Test size: 448
+2025-05-25 19:19:00,866 - INFO - __main__ - Data preprocessed.
+2025-05-25 19:19:00,866 - INFO - __main__ - Training random_forest model...
+2025-05-25 19:19:01,217 - INFO - __main__ - Model trained successfully.
+2025-05-25 19:19:01,217 - INFO - __main__ - Saving model artifacts to: models/apt_price_model.pkl
+2025-05-25 19:19:01,242 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-25 19:19:01,242 - INFO - __main__ - Model training completed successfully.
+2025-05-25 19:29:10,122 - INFO - __main__ - Model training started.
+2025-05-25 19:29:10,122 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:29:10,145 - INFO - __main__ - Loaded data shape: (2239, 6)
+2025-05-25 19:29:10,145 - INFO - __main__ - Preprocessing data...
+2025-05-25 19:29:10,148 - INFO - __main__ - Train size: 1791, Test size: 448
+2025-05-25 19:29:10,153 - INFO - __main__ - Data preprocessed.
+2025-05-25 19:29:10,153 - INFO - __main__ - Training random_forest model...
+2025-05-25 19:29:10,458 - INFO - __main__ - Model trained successfully.
+2025-05-25 19:29:10,458 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:29:10,481 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-25 19:29:10,481 - INFO - __main__ - Model training completed successfully.
+2025-05-25 19:56:14,716 - INFO - __main__ - Model training started.
+2025-05-25 19:56:14,716 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:56:14,736 - INFO - __main__ - Loaded data shape: (2239, 6)
+2025-05-25 19:56:14,736 - INFO - __main__ - Preprocessing data...
+2025-05-25 19:56:14,740 - INFO - __main__ - Train size: 1791, Test size: 448
+2025-05-25 19:56:14,745 - INFO - __main__ - Data preprocessed.
+2025-05-25 19:56:14,745 - INFO - __main__ - Training random_forest model...
+2025-05-25 19:56:15,056 - INFO - __main__ - Model trained successfully.
+2025-05-25 19:56:15,056 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:56:15,078 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-25 19:56:15,078 - INFO - __main__ - Model training completed successfully.

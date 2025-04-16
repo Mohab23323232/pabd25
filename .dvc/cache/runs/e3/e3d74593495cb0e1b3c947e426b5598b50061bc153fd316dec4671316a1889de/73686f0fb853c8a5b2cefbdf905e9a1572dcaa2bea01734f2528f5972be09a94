@@ -1,0 +1,19 @@
+cmd: python src/evaluate.py
+deps:
+- path: data/processed/test_data.pkl
+  hash: md5
+  md5: 26e9c0483a6fef1c1c368ac88db9fbaa
+  size: 18177
+- path: models/apartment_price_model.pkl
+  hash: md5
+  md5: 2d074899be5ae996c592519729a3ae7e
+  size: 8170225
+- path: src/evaluate.py
+  hash: md5
+  md5: cc35ef7890530eaafb6d2387a7b64a57
+  size: 604
+outs:
+- path: metrics.json
+  hash: md5
+  md5: 50a9be2f917c1cedb9597b19c399a57d
+  size: 99

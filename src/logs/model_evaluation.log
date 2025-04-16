@@ -1,0 +1,84 @@
+2025-05-22 02:24:39,496 - INFO - __main__ - Model evaluation started.
+2025-05-22 02:24:39,497 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:24:39,497 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd-dvc\src\..\models\preprocessor.pkl
+2025-05-22 02:24:39,665 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:24:39,668 - INFO - __main__ - Evaluating model...
+2025-05-22 02:24:39,679 - INFO - __main__ - Evaluation Results:
+2025-05-22 02:24:39,680 - INFO - __main__ - MAE: 13033119.07
+2025-05-22 02:24:39,680 - INFO - __main__ - RMSE: 28721225.22
+2025-05-22 02:24:39,680 - INFO - __main__ - R² Score: 0.9027
+2025-05-22 02:24:39,680 - INFO - __main__ - Making prediction...
+2025-05-22 02:24:39,686 - INFO - __main__ - Predicted price: 58,891,900 \u0440\u0443\u0431
+2025-05-22 02:24:39,687 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-22 02:24:59,410 - INFO - __main__ - Model evaluation started.
+2025-05-22 02:24:59,410 - INFO - __main__ - Loading model from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\apartment_price_model.pkl
+2025-05-22 02:24:59,410 - INFO - __main__ - Loading preprocessor from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\models\preprocessor.pkl
+2025-05-22 02:24:59,542 - INFO - __main__ - Loading test data from: C:\Users\Mohab\Desktop\pabd-dvc\src\..\data\processed\processed_data.csv
+2025-05-22 02:24:59,544 - INFO - __main__ - Evaluating model...
+2025-05-22 02:24:59,554 - INFO - __main__ - Evaluation Results:
+2025-05-22 02:24:59,554 - INFO - __main__ - MAE: 13033119.07
+2025-05-22 02:24:59,554 - INFO - __main__ - RMSE: 28721225.22
+2025-05-22 02:24:59,554 - INFO - __main__ - R² Score: 0.9027
+2025-05-22 02:24:59,554 - INFO - __main__ - Making prediction...
+2025-05-22 02:24:59,560 - INFO - __main__ - Predicted price: 58,891,900 \u0440\u0443\u0431
+2025-05-22 02:24:59,560 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-25 19:11:41,232 - INFO - __main__ - Model evaluation started.
+2025-05-25 19:11:41,233 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:11:41,233 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-25 19:11:41,400 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:11:41,404 - INFO - __main__ - Evaluating model...
+2025-05-25 19:11:41,434 - INFO - __main__ - Evaluation Results:
+2025-05-25 19:11:41,434 - INFO - __main__ - MAE: 9938175.23
+2025-05-25 19:11:41,434 - INFO - __main__ - RMSE: 24927211.57
+2025-05-25 19:11:41,434 - INFO - __main__ - R² Score: 0.9537
+2025-05-25 19:11:41,434 - INFO - __main__ - Making prediction...
+2025-05-25 19:11:41,441 - INFO - __main__ - Predicted price: 86,690,548 \u0440\u0443\u0431
+2025-05-25 19:11:41,441 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-25 19:20:56,419 - INFO - __main__ - Model evaluation started.
+2025-05-25 19:20:56,420 - INFO - __main__ - Loading model from: models/apt_price_model.pkl
+2025-05-25 19:20:56,420 - INFO - __main__ - Loading preprocessor from: models/preprocessor.pkl
+2025-05-25 19:20:56,594 - INFO - __main__ - Loading test data from: data/processed/train.csv
+2025-05-25 19:20:56,598 - INFO - __main__ - Evaluating model...
+2025-05-25 19:20:56,628 - INFO - __main__ - Evaluation Results:
+2025-05-25 19:20:56,628 - INFO - __main__ - MAE: 9938175.23
+2025-05-25 19:20:56,628 - INFO - __main__ - RMSE: 24927211.57
+2025-05-25 19:20:56,628 - INFO - __main__ - R² Score: 0.9537
+2025-05-25 19:20:56,628 - INFO - __main__ - Making prediction...
+2025-05-25 19:20:56,634 - INFO - __main__ - Predicted price: 86,690,548 \u0440\u0443\u0431
+2025-05-25 19:20:56,635 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-25 19:29:51,835 - INFO - __main__ - Model evaluation started.
+2025-05-25 19:29:51,835 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:29:51,835 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-25 19:29:52,017 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:29:52,020 - INFO - __main__ - Evaluating model...
+2025-05-25 19:29:52,059 - INFO - __main__ - Evaluation Results:
+2025-05-25 19:29:52,059 - INFO - __main__ - MAE: 9938175.23
+2025-05-25 19:29:52,059 - INFO - __main__ - RMSE: 24927211.57
+2025-05-25 19:29:52,059 - INFO - __main__ - R² Score: 0.9537
+2025-05-25 19:29:52,059 - INFO - __main__ - Making prediction...
+2025-05-25 19:29:52,067 - INFO - __main__ - Predicted price: 86,690,548 \u0440\u0443\u0431
+2025-05-25 19:29:52,067 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-25 19:39:24,379 - INFO - __main__ - Model evaluation started.
+2025-05-25 19:39:24,379 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-25 19:39:24,379 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-25 19:39:24,527 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-25 19:39:24,530 - INFO - __main__ - Evaluating model...
+2025-05-25 19:39:24,563 - INFO - __main__ - Evaluation Results:
+2025-05-25 19:39:24,564 - INFO - __main__ - MAE: 9938175.23
+2025-05-25 19:39:24,564 - INFO - __main__ - RMSE: 24927211.57
+2025-05-25 19:39:24,564 - INFO - __main__ - R² Score: 0.9537
+2025-05-25 19:39:24,564 - INFO - __main__ - Making prediction...
+2025-05-25 19:39:24,571 - INFO - __main__ - Predicted price: 86,690,548 \u0440\u0443\u0431
+2025-05-25 19:39:24,573 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-25 20:07:29,471 - INFO - __main__ - Model evaluation started.
+2025-05-25 20:07:29,472 - INFO - __main__ - Loading model from: models/apt_price_model.pkl
+2025-05-25 20:07:29,472 - INFO - __main__ - Loading preprocessor from: models/preprocessor.pkl
+2025-05-25 20:07:29,659 - INFO - __main__ - Loading test data from: data/processed/train.csv
+2025-05-25 20:07:29,680 - INFO - __main__ - Evaluating model...
+2025-05-25 20:07:29,713 - INFO - __main__ - Evaluation Results:
+2025-05-25 20:07:29,713 - INFO - __main__ - MAE: 9938175.23
+2025-05-25 20:07:29,713 - INFO - __main__ - RMSE: 24927211.57
+2025-05-25 20:07:29,713 - INFO - __main__ - R² Score: 0.9537
+2025-05-25 20:07:29,713 - INFO - __main__ - Making prediction...
+2025-05-25 20:07:29,720 - INFO - __main__ - Predicted price: 86,690,548 \u0440\u0443\u0431
+2025-05-25 20:07:29,721 - INFO - __main__ - Model evaluation completed successfully.

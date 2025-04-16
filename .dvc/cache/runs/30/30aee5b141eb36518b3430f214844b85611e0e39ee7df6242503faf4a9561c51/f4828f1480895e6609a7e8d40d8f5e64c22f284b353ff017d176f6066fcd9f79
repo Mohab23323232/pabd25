@@ -1,0 +1,15 @@
+cmd: python src/train.py
+deps:
+- path: data/processed/train_data.pkl
+  hash: md5
+  md5: 44a1fd86e3d2c3322c77ae519c32bed5
+  size: 69890
+- path: src/train.py
+  hash: md5
+  md5: 894454385d647b5904c8addb0a830080
+  size: 382
+outs:
+- path: models/apartment_price_model.pkl
+  hash: md5
+  md5: 2d074899be5ae996c592519729a3ae7e
+  size: 8170225

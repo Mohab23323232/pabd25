@@ -1,0 +1,6 @@
+===== Evaluation Report =====
+MAE  : 9938175.23
+RMSE : 24927211.57
+R²   : 0.9537
+
+Sample Prediction (60m², 10/25 floor, 2 rooms): 86690547 руб

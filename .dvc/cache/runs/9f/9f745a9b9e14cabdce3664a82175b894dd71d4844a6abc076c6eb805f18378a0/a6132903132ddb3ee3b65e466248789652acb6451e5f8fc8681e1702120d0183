@@ -1,0 +1,16 @@
+cmd: python src/training.py --input_path=data/processed/train.csv --test_size=0.2
+  --model_path=models/apt_price_model.pkl --preprocessor_path=models/preprocessor.pkl
+deps:
+- path: data/processed/train.csv
+  hash: md5
+  md5: 72ce8b394159ac297a87d05d8729932c
+  size: 75028
+outs:
+- path: models/apt_price_model.pkl
+  hash: md5
+  md5: ccfd24ce57f1a4e67cb8bcc2083e7aa6
+  size: 12615937
+- path: models/preprocessor.pkl
+  hash: md5
+  md5: 6cd4a0cf5af5f1d542b4cc8f5b2c2161
+  size: 2485

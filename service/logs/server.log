@@ -1,0 +1,479 @@
+[2025-05-14 20:19:44,906] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 20:19:44,906] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 20:19:44,909] INFO in _internal:  * Restarting with stat
+[2025-05-14 20:19:45,261] WARNING in _internal:  * Debugger is active!
+[2025-05-14 20:19:45,263] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:35:29,461] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 21:35:29,477] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 21:35:29,490] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:35:29,804] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:35:29,805] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:35:46,533] DEBUG in server: server started
+[2025-05-14 21:35:46,571] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:35:46] "GET / HTTP/1.1" 200 -
+[2025-05-14 21:35:46,661] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:35:46] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-05-14 21:35:46,678] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:35:46] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-14 21:35:46,690] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:35:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-14 21:35:57,681] INFO in server: handling "process_numbers": request body: {'num1': '4', 'num2': '76', 'num3': '332', 'num4': '32'}
+[2025-05-14 21:35:57,682] INFO in server: client response "process_numbers": 444
+[2025-05-14 21:35:57,683] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:35:57] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:36:37,388] DEBUG in server: server started
+[2025-05-14 21:36:37,389] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:36:37] "GET / HTTP/1.1" 200 -
+[2025-05-14 21:36:37,416] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-14 21:36:37,426] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:36:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-14 21:36:48,155] INFO in server: handling "process_numbers": request body: {'num1': '23', 'num2': '22', 'num3': '2', 'num4': '3'}
+[2025-05-14 21:36:48,155] INFO in server: client response "process_numbers": 50
+[2025-05-14 21:36:48,156] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:36:48] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:36:56,930] INFO in server: handling "process_numbers": request body: {'num1': '23', 'num2': '22', 'num3': '2', 'num4': '3'}
+[2025-05-14 21:36:56,931] INFO in server: client response "process_numbers": 50
+[2025-05-14 21:36:56,931] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:36:56] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:40:37,389] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 21:40:37,390] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 21:40:37,392] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:40:37,690] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:40:37,692] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:40:55,213] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 21:40:55,213] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 21:40:55,215] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:40:55,541] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:40:55,543] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:41:06,861] INFO in server: handling "process_numbers": request body: {'num1': '23', 'num2': '22', 'num3': '2', 'num4': '3'}
+[2025-05-14 21:41:06,862] INFO in server: client response "process_numbers": 50
+[2025-05-14 21:41:06,863] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:06] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:41:21,041] DEBUG in server: server started
+[2025-05-14 21:41:21,042] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:21] "GET / HTTP/1.1" 200 -
+[2025-05-14 21:41:21,064] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-14 21:41:21,078] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-14 21:41:28,906] INFO in server: handling "process_numbers": request body: {'num1': '3', 'num2': '32', 'num3': '2', 'num4': '2'}
+[2025-05-14 21:41:28,907] INFO in server: client response "process_numbers": 39
+[2025-05-14 21:41:28,908] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:28] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:41:58,262] INFO in server: handling "process_numbers": request body: {'num1': '3', 'num2': '32', 'num3': '2', 'num4': '2'}
+[2025-05-14 21:41:58,263] INFO in server: client response "process_numbers": 39
+[2025-05-14 21:41:58,264] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:58] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:41:58,482] INFO in server: handling "process_numbers": request body: {'num1': '3', 'num2': '32', 'num3': '2', 'num4': '2'}
+[2025-05-14 21:41:58,483] INFO in server: client response "process_numbers": 39
+[2025-05-14 21:41:58,483] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:58] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:41:58,713] INFO in server: handling "process_numbers": request body: {'num1': '3', 'num2': '32', 'num3': '2', 'num4': '2'}
+[2025-05-14 21:41:58,714] INFO in server: client response "process_numbers": 39
+[2025-05-14 21:41:58,715] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:41:58] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:43:32,435] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 21:43:32,436] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 21:43:32,438] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:43:32,790] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:43:32,791] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:43:46,379] DEBUG in server: server started
+[2025-05-14 21:43:46,380] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:43:46] "GET / HTTP/1.1" 200 -
+[2025-05-14 21:43:46,402] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-14 21:43:46,412] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:43:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-14 21:43:59,075] INFO in server: handling "process_numbers": request body: {'num1': '2', 'num2': '4', 'num3': '4', 'num4': '4'}
+[2025-05-14 21:43:59,076] INFO in server: client response "process_numbers": 14
+[2025-05-14 21:43:59,077] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:43:59] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:46:35,796] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-14 21:46:35,796] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-14 21:46:35,800] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-14 21:46:35,860] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:35,866] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:35,879] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:36,220] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:36,222] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:36,225] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:36,227] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:36,229] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:36,232] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:36,412] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-14 21:46:36,465] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:36,512] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-14 21:46:36,553] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:36,799] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:36,801] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:36,867] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:36,869] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:39,701] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-14 21:46:39,701] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-14 21:46:39,703] INFO in _internal:  * Restarting with stat
+[2025-05-14 21:46:40,056] WARNING in _internal:  * Debugger is active!
+[2025-05-14 21:46:40,058] INFO in _internal:  * Debugger PIN: 683-882-884
+[2025-05-14 21:46:51,826] DEBUG in server: server started
+[2025-05-14 21:46:51,835] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:46:51] "GET / HTTP/1.1" 200 -
+[2025-05-14 21:46:51,960] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:46:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-14 21:46:51,962] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:46:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-14 21:47:03,876] INFO in server: handling "process_numbers": request body: {'num1': '33', 'num2': '33', 'num3': '33', 'num4': '333'}
+[2025-05-14 21:47:03,877] INFO in server: client response "process_numbers": 432
+[2025-05-14 21:47:03,878] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:47:03] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:53:06,798] INFO in server: handling "process_numbers": request body: {'num1': '33', 'num2': '33', 'num3': '33', 'num4': '333'}
+[2025-05-14 21:53:06,798] INFO in server: client response "process_numbers": 432
+[2025-05-14 21:53:06,799] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:53:06] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:53:28,981] INFO in server: handling "process_numbers": request body: {'num1': '33', 'num2': '33', 'num3': '33', 'num4': '333'}
+[2025-05-14 21:53:28,981] INFO in server: client response "process_numbers": 432
+[2025-05-14 21:53:28,982] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:53:28] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-14 21:53:51,730] INFO in server: handling "process_numbers": request body: {'num1': '33', 'num2': '33', 'num3': '33', 'num4': '333'}
+[2025-05-14 21:53:51,731] INFO in server: client response "process_numbers": 432
+[2025-05-14 21:53:51,732] INFO in _internal: 127.0.0.1 - - [14/May/2025 21:53:51] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-15 03:39:35,593] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-15 03:39:35,594] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-15 03:39:35,596] INFO in _internal:  * Restarting with stat
+[2025-05-15 03:39:35,941] WARNING in _internal:  * Debugger is active!
+[2025-05-15 03:39:35,950] INFO in _internal:  * Debugger PIN: 456-987-074
+[2025-05-15 03:39:49,947] DEBUG in server: server started
+[2025-05-15 03:39:49,972] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:39:49] "GET / HTTP/1.1" 200 -
+[2025-05-15 03:39:50,054] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:39:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-15 03:39:50,072] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:39:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-15 03:39:50,086] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-15 03:39:57,956] INFO in server: handling "process_numbers": request body: {'num1': '32', 'num2': '23', 'num3': '33', 'num4': '33'}
+[2025-05-15 03:39:57,956] INFO in server: client response "process_numbers": 121
+[2025-05-15 03:39:57,957] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:39:57] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-15 03:41:49,034] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-15 03:41:49,035] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-15 03:41:49,036] INFO in _internal:  * Restarting with stat
+[2025-05-15 03:41:49,334] WARNING in _internal:  * Debugger is active!
+[2025-05-15 03:41:49,336] INFO in _internal:  * Debugger PIN: 456-987-074
+[2025-05-15 03:41:59,786] DEBUG in server: server started
+[2025-05-15 03:41:59,787] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:41:59] "GET / HTTP/1.1" 200 -
+[2025-05-15 03:41:59,816] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:41:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-15 03:41:59,819] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:41:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-15 03:42:08,946] INFO in server: handling "process_numbers": request body: {'num1': '33', 'num2': '33', 'num3': '33', 'num4': '33'}
+[2025-05-15 03:42:08,946] INFO in server: client response "process_numbers": 132
+[2025-05-15 03:42:08,947] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:42:08] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-15 03:48:36,435] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-15 03:48:36,436] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-15 03:48:36,440] INFO in _internal:  * Restarting with stat
+[2025-05-15 03:48:36,759] WARNING in _internal:  * Debugger is active!
+[2025-05-15 03:48:36,760] INFO in _internal:  * Debugger PIN: 955-832-096
+[2025-05-15 03:48:52,687] DEBUG in server: server started
+[2025-05-15 03:48:52,695] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:48:52] "GET / HTTP/1.1" 200 -
+[2025-05-15 03:48:52,817] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:48:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-15 03:48:52,822] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:48:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-15 03:49:00,652] INFO in server: handling "process_numbers": request body: {'num1': '4', 'num2': '4', 'num3': '4', 'num4': '4'}
+[2025-05-15 03:49:00,652] INFO in server: client response "process_numbers": 16
+[2025-05-15 03:49:00,653] INFO in _internal: 127.0.0.1 - - [15/May/2025 03:49:00] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-21 14:26:42,007] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 14:26:42,008] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 14:26:42,009] INFO in _internal:  * Restarting with stat
+[2025-05-21 14:26:42,264] WARNING in _internal:  * Debugger is active!
+[2025-05-21 14:26:42,266] INFO in _internal:  * Debugger PIN: 972-267-849
+[2025-05-21 14:27:00,124] DEBUG in server: server started
+[2025-05-21 14:27:00,162] INFO in _internal: 127.0.0.1 - - [21/May/2025 14:27:00] "GET / HTTP/1.1" 200 -
+[2025-05-21 14:27:00,268] INFO in _internal: 127.0.0.1 - - [21/May/2025 14:27:00] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-05-21 14:27:00,285] INFO in _internal: 127.0.0.1 - - [21/May/2025 14:27:00] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-21 14:27:00,299] INFO in _internal: 127.0.0.1 - - [21/May/2025 14:27:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 14:27:06,731] INFO in server: handling "process_numbers": request body: {'num1': '3', 'num2': '3', 'num3': '3', 'num4': '3'}
+[2025-05-21 14:27:06,731] INFO in server: client response "process_numbers": 12
+[2025-05-21 14:27:06,732] INFO in _internal: 127.0.0.1 - - [21/May/2025 14:27:06] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-21 15:53:16,857] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 15:53:16,858] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 15:53:16,860] INFO in _internal:  * Restarting with stat
+[2025-05-21 15:53:17,266] WARNING in _internal:  * Debugger is active!
+[2025-05-21 15:53:17,267] INFO in _internal:  * Debugger PIN: 972-267-849
+[2025-05-21 15:53:34,086] DEBUG in server: server started
+[2025-05-21 15:53:34,099] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:53:34] "GET / HTTP/1.1" 200 -
+[2025-05-21 15:53:34,207] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:53:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 15:53:34,210] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:53:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 15:53:34,232] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:53:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 15:53:42,931] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:53:42] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:54:00,834] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:54:00] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:54:01,591] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:54:01] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:54:01,753] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:54:01] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:54:01,929] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:54:01] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:55:10,679] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 15:55:10,679] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 15:55:10,682] INFO in _internal:  * Restarting with stat
+[2025-05-21 15:55:11,100] WARNING in _internal:  * Debugger is active!
+[2025-05-21 15:55:11,102] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 15:55:31,002] DEBUG in server: server started
+[2025-05-21 15:55:31,013] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:55:31] "GET / HTTP/1.1" 200 -
+[2025-05-21 15:55:31,214] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:55:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 15:55:31,215] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:55:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 15:55:31,255] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:55:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 15:55:37,370] INFO in _internal: 127.0.0.1 - - [21/May/2025 15:55:37] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 15:59:36,836] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\config.py', reloading
+[2025-05-21 15:59:36,916] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:01:02,174] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 16:01:02,174] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 16:01:02,175] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:01:02,616] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:01:02,617] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:01:14,495] DEBUG in server: server started
+[2025-05-21 16:01:14,503] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:01:14] "GET / HTTP/1.1" 200 -
+[2025-05-21 16:01:14,596] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:01:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 16:01:14,598] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:01:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 16:01:19,370] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:01:19] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 16:04:53,500] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\config.py', reloading
+[2025-05-21 16:04:53,565] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:04:54,004] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:04:54,006] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:05:19,379] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 16:05:19,379] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 16:05:19,380] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:05:19,809] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:05:19,810] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:05:30,097] DEBUG in server: server started
+[2025-05-21 16:05:30,105] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:05:30] "GET / HTTP/1.1" 200 -
+[2025-05-21 16:05:30,171] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:05:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 16:05:30,179] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:05:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 16:05:35,144] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:05:35] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 16:08:04,621] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\config.py', reloading
+[2025-05-21 16:08:04,688] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:08:04,946] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:08:04,948] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:08:05,149] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\config.py', reloading
+[2025-05-21 16:08:05,215] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:08:05,449] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:08:05,450] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:08:17,877] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 16:08:17,878] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 16:08:17,879] INFO in _internal:  * Restarting with stat
+[2025-05-21 16:08:18,133] WARNING in _internal:  * Debugger is active!
+[2025-05-21 16:08:18,135] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 16:08:31,766] DEBUG in server: server started
+[2025-05-21 16:08:31,773] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:08:31] "GET / HTTP/1.1" 200 -
+[2025-05-21 16:08:31,859] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:08:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 16:08:31,861] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:08:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 16:08:37,239] INFO in server: handling "process_numbers": request body: {'num1': '2', 'num2': '2', 'num3': '2', 'num4': '2'}
+[2025-05-21 16:08:37,240] INFO in server: client response "process_numbers": 8
+[2025-05-21 16:08:37,241] INFO in _internal: 127.0.0.1 - - [21/May/2025 16:08:37] "POST /api/numbers HTTP/1.1" 200 -
+[2025-05-21 17:27:09,407] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:27:09,451] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:27:09,760] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:27:09,794] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:27:09,984] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:27:10,026] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:27:12,451] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:27:12,451] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:27:12,452] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:27:12,453] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:27:12,453] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:27:12,453] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:30:30,754] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:30:30,754] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:30:30,756] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:30:31,394] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:30:31,395] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:30:41,321] DEBUG in server: server started
+[2025-05-21 17:30:41,326] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:30:41] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:30:41,387] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:30:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 17:30:41,393] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:30:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 17:30:41,415] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:30:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 17:30:46,529] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:30:46] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 17:33:39,066] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:33:39] "[33mPOST /api/numbers HTTP/1.1[0m" 404 -
+[2025-05-21 17:53:12,002] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceResponse.py', reloading
+[2025-05-21 17:53:12,002] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceResponse.py', reloading
+[2025-05-21 17:53:12,182] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:53:12,189] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:53:12,190] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:53:12,583] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceResponse.py', reloading
+[2025-05-21 17:53:12,719] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:53:13,006] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:53:13,006] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:53:13,006] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:53:13,008] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:53:13,008] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:53:13,008] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:53:13,479] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:53:13,481] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:53:15,588] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:53:15,588] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:53:15,589] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:53:16,230] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:53:16,232] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:53:22,519] DEBUG in server: server started
+[2025-05-21 17:53:22,529] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:53:22] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:53:22,623] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:53:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 17:53:22,658] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:53:22] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-21 17:54:19,354] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:54:19,355] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:54:19,356] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:54:20,028] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:54:20,029] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:54:40,129] DEBUG in server: server started
+[2025-05-21 17:54:40,173] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:54:40] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:54:40,229] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:54:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 17:54:40,231] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:54:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 17:54:48,945] INFO in server: handling "process_numbers": request body: {'area': 21, 'rooms_count': 11, 'floors_count': 11, 'floor': 2323}
+[2025-05-21 17:54:48,964] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:54:48] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+[2025-05-21 17:55:26,750] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:55:26,851] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:27,037] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:55:27,053] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:55:27,145] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:55:27,172] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:27,188] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:27,279] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:27,364] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:55:27,505] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:27,684] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:27,686] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:28,018] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:28,020] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:28,026] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:28,028] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:28,123] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:28,125] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:28,290] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:28,292] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:30,391] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:55:30,392] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:55:30,393] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:55:31,066] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:55:31,067] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:55:31,611] DEBUG in server: server started
+[2025-05-21 17:55:31,616] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:55:31] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:55:31,670] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:55:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 17:55:31,670] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:55:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 17:55:34,392] INFO in server: handling "process_numbers": request body: {'area': 21, 'rooms_count': 11, 'floors_count': 11, 'floor': 2323}
+[2025-05-21 17:55:34,398] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:55:34] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+[2025-05-21 17:55:39,138] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 22, 'floors_count': 44, 'floor': 33}
+[2025-05-21 17:55:39,156] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:55:39] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+[2025-05-21 17:56:36,782] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceRequest.py', reloading
+[2025-05-21 17:56:36,827] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceRequest.py', reloading
+[2025-05-21 17:56:36,942] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:56:36,943] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceResponse.py', reloading
+[2025-05-21 17:56:36,958] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:56:36,970] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:56:37,030] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:56:37,155] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:56:37,159] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:56:37,181] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:56:38,092] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:56:38,093] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:56:38,095] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:56:38,095] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:56:38,181] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:56:38,183] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:56:38,191] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:56:38,193] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:56:38,210] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:56:38,213] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:04,661] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:57:04,788] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceRequest.py', reloading
+[2025-05-21 17:57:04,793] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\server.py', reloading
+[2025-05-21 17:57:04,797] INFO in _internal:  * Detected change in 'c:\\Users\\Mohab\\Desktop\\pabd25\\service\\models\\PredictPriceRequest.py', reloading
+[2025-05-21 17:57:05,025] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:05,164] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:05,168] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:05,174] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:06,051] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:06,053] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:06,055] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:06,057] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:06,074] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:06,076] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:06,085] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:06,087] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:15,806] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:57:15,807] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:57:15,808] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:16,515] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:16,517] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:27,067] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:57:27,067] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:57:27,068] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:57:27,693] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:57:27,694] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:57:29,022] DEBUG in server: server started
+[2025-05-21 17:57:29,027] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:57:29] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:57:29,085] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:57:29] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-21 17:57:29,085] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:57:29] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-05-21 17:57:32,024] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 22, 'floors_count': 44, 'floor': 33}
+[2025-05-21 17:57:32,828] INFO in server: client response "process_numbers": {'price': 13085813.333333336}
+[2025-05-21 17:57:32,828] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:57:32] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 17:59:18,184] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 17:59:18,184] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 17:59:18,185] INFO in _internal:  * Restarting with stat
+[2025-05-21 17:59:18,815] WARNING in _internal:  * Debugger is active!
+[2025-05-21 17:59:18,817] INFO in _internal:  * Debugger PIN: 856-606-806
+[2025-05-21 17:59:21,157] DEBUG in server: server started
+[2025-05-21 17:59:21,161] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:21] "GET / HTTP/1.1" 200 -
+[2025-05-21 17:59:21,219] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 17:59:21,221] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 17:59:21,248] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 17:59:27,360] INFO in server: handling "process_numbers": request body: {'area': 6, 'rooms_count': 6, 'floors_count': 6, 'floor': 55}
+[2025-05-21 17:59:28,120] INFO in server: client response "process_numbers": {'price': 9638939.899999999}
+[2025-05-21 17:59:28,120] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:28] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:29:36,435] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:29:36,436] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:29:36,439] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:29:37,319] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:29:37,322] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:29:45,250] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:29:45,250] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:29:45,252] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:29:46,055] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:29:46,056] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:29:51,542] DEBUG in server: server started
+[2025-05-21 20:29:51,577] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET / HTTP/1.1" 200 -
+[2025-05-21 20:29:51,644] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-05-21 20:29:51,653] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-21 20:29:51,693] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 20:29:57,633] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:00,264] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:02,023] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,249] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,620] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,788] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,842] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,849] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,843] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,867] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,871] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,878] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,879] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,884] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,885] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,886] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,889] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,892] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,916] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,925] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,941] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,962] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,979] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:09,199] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:09,317] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,324] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,636] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,637] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,650] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,663] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,710] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,716] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,719] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,743] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,765] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,768] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:31:40,555] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:31:40,555] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:31:40,557] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:31:41,440] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:31:41,442] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:32:04,743] DEBUG in server: server started
+[2025-05-21 20:32:04,745] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "GET / HTTP/1.1" 200 -
+[2025-05-21 20:32:04,775] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 20:32:04,784] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 20:32:04,811] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 20:32:26,536] INFO in server: handling "process_numbers": request body: {'area': 21, 'rooms_count': 1, 'floors_count': 4, 'floor': 5}
+[2025-05-21 20:32:26,588] INFO in server: client response "process_numbers": {'price': 9870439.95}
+[2025-05-21 20:32:26,589] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:26] "POST /api/predict HTTP/1.1" 200 -
