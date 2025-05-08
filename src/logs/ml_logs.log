@@ -1,0 +1,26 @@
+2025-05-21 17:27:23,396 - INFO - __main__ - Pipeline started.
+2025-05-21 17:27:23,396 - INFO - __main__ - Loading CSV files from: c:\Users\Mohab\Desktop\pabd25\src\..\data\raw
+2025-05-21 17:27:23,397 - INFO - __main__ - Found 2 CSV files.
+2025-05-21 17:27:23,432 - INFO - __main__ - Total data loaded: 110 rows
+2025-05-21 17:27:23,432 - INFO - __main__ - Processing CIAN dataset...
+2025-05-21 17:27:23,439 - INFO - __main__ - Data after filtering: 110 rows
+2025-05-21 17:27:23,439 - INFO - __main__ - Preprocessing data...
+2025-05-21 17:27:23,441 - INFO - __main__ - Train size: 88, Test size: 22
+2025-05-21 17:27:23,446 - INFO - __main__ - Data preprocessed.
+2025-05-21 17:27:23,446 - INFO - __main__ - Training random_forest model...
+2025-05-21 17:27:23,512 - INFO - __main__ - Model trained successfully.
+2025-05-21 17:27:23,512 - INFO - __main__ - Evaluating model performance...
+2025-05-21 17:27:23,518 - INFO - __main__ - Evaluation Results:
+2025-05-21 17:27:23,518 - INFO - __main__ - MAE: 18493448.66
+2025-05-21 17:27:23,518 - INFO - __main__ - RMSE: 27728811.88
+2025-05-21 17:27:23,518 - INFO - __main__ - R² Score: 0.6789
+2025-05-21 17:27:23,518 - INFO - __main__ - 
+Mean Absolute Error (MAE): 18,493,449 \u0440\u0443\u0431
+2025-05-21 17:27:23,518 - INFO - __main__ - Root Mean Squared Error (RMSE): 27,728,812 \u0440\u0443\u0431
+2025-05-21 17:27:23,518 - INFO - __main__ - R² Score: 0.6789
+
+2025-05-21 17:27:23,518 - INFO - __main__ - Saving model to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-21 17:27:23,518 - INFO - __main__ - Saving preprocessor to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model_preprocessor.pkl
+2025-05-21 17:27:23,531 - INFO - __main__ - Model and preprocessor saved successfully.
+2025-05-21 17:27:23,538 - INFO - __main__ - \U0001f52e Predicted price: 29,640,000 \u0440\u0443\u0431
+2025-05-21 17:27:23,538 - INFO - __main__ - Pipeline completed successfully.

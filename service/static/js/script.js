@@ -1,26 +1,34 @@
-document.getElementById('numberForm').addEventListener('submit', async function(e) {
-  e.preventDefault();
+document.getElementById('predictForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
 
-  const formData = new FormData(this);
-  const numbers = {
-    num1: formData.get('num1'),
-    num2: formData.get('num2'),
-    num3: formData.get('num3'),
-    num4: formData.get('num4')
-  };
+    const formData = new FormData(this);
+    const area = formData.get('area');
+    const rooms_count = formData.get('rooms_count');
+    const floors_count = formData.get('floors_count');
+    const floor = formData.get('floor');
 
-  try {
-    const res = await fetch('/api/numbers', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(numbers)
-    });
+    try {
+      const res = await fetch('/api/predict', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            area: parseFloat(area),
+            rooms_count: parseFloat(rooms_count),
+            floors_count: parseFloat(floors_count),
+            floor: parseFloat(floor)
+        })
+      });
 
-    const data = await res.json();
-    document.getElementById('response').textContent = 'Цена: ' + JSON.stringify(data['sum']);
-  } catch (err) {
-    document.getElementById('response').textContent = 'Error: ' + err.message;
-  }
+      const data = await res.json();
+
+      if (res.ok) {
+        document.getElementById('response').textContent = `Predicted Price: ${data.price} ₽`;
+      } else {
+        document.getElementById('response').textContent = `Error: ${data.error || "Unknown error"}`;
+      }
+    } catch (err) {
+      document.getElementById('response').textContent = `Network Error: ${err.message}`;
+    }
 });
