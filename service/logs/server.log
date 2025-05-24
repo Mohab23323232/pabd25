@@ -410,3 +410,70 @@
 [2025-05-21 17:59:27,360] INFO in server: handling "process_numbers": request body: {'area': 6, 'rooms_count': 6, 'floors_count': 6, 'floor': 55}
 [2025-05-21 17:59:28,120] INFO in server: client response "process_numbers": {'price': 9638939.899999999}
 [2025-05-21 17:59:28,120] INFO in _internal: 127.0.0.1 - - [21/May/2025 17:59:28] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:29:36,435] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:29:36,436] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:29:36,439] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:29:37,319] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:29:37,322] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:29:45,250] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:29:45,250] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:29:45,252] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:29:46,055] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:29:46,056] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:29:51,542] DEBUG in server: server started
+[2025-05-21 20:29:51,577] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET / HTTP/1.1" 200 -
+[2025-05-21 20:29:51,644] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-05-21 20:29:51,653] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "GET /static/js/script.js HTTP/1.1" 200 -
+[2025-05-21 20:29:51,693] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:29:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 20:29:57,633] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:00,264] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:02,023] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,249] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,620] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:03,788] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,842] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,849] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,843] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,867] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,871] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,878] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,879] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,884] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,885] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:08,886] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,889] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,892] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,916] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:08] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:08,925] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,941] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,962] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:08,979] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:09,199] INFO in server: handling "process_numbers": request body: {'area': 33, 'rooms_count': 3, 'floors_count': 3, 'floor': 3}
+[2025-05-21 20:30:09,317] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,324] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,636] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,637] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,650] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,663] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,710] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,716] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,719] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,743] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:30:09,765] INFO in server: client response "process_numbers": {'price': 13487060.000000002}
+[2025-05-21 20:30:09,768] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:30:09] "POST /api/predict HTTP/1.1" 200 -
+[2025-05-21 20:31:40,555] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-21 20:31:40,555] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-05-21 20:31:40,557] INFO in _internal:  * Restarting with stat
+[2025-05-21 20:31:41,440] WARNING in _internal:  * Debugger is active!
+[2025-05-21 20:31:41,442] INFO in _internal:  * Debugger PIN: 724-706-372
+[2025-05-21 20:32:04,743] DEBUG in server: server started
+[2025-05-21 20:32:04,745] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "GET / HTTP/1.1" 200 -
+[2025-05-21 20:32:04,775] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-05-21 20:32:04,784] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+[2025-05-21 20:32:04,811] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-21 20:32:26,536] INFO in server: handling "process_numbers": request body: {'area': 21, 'rooms_count': 1, 'floors_count': 4, 'floor': 5}
+[2025-05-21 20:32:26,588] INFO in server: client response "process_numbers": {'price': 9870439.95}
+[2025-05-21 20:32:26,589] INFO in _internal: 127.0.0.1 - - [21/May/2025 20:32:26] "POST /api/predict HTTP/1.1" 200 -
