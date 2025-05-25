@@ -1,26 +1,22 @@
 stages:
-  clean_data:
-    cmd: python src/clean_data.py
-    deps:
-      - data/raw
-      - src/clean_data.py
+  processing:
+    cmd: python src/processing.py --input_path=data/raw --output_path=data/processed/train.csv
     outs:
-      - data/processed/train_data.pkl
-      - data/processed/test_data.pkl
-
-  train_model:
-    cmd: python src/train.py
+      - data/processed/train.csv
+  training:
+    cmd: python src/training.py --input_path=data/processed/train.csv 
+        --test_size=0.2 --model_path=models/apt_price_model.pkl 
+        --preprocessor_path=models/preprocessor.pkl
     deps:
-      - data/processed/train_data.pkl
-      - src/train.py
+      - data/processed/train.csv
     outs:
-      - models/apartment_price_model.pkl
-
-  evaluate:
-    cmd: python src/evaluate.py
+      - models/apt_price_model.pkl
+      - models/preprocessor.pkl
+  evaluating:
+    cmd: python src/evaluating.py --model_path=models/apt_price_model.pkl
+         --preprocessor_path=models/preprocessor.pkl
+         --test_data_path=data/processed/train.csv
     deps:
-      - data/processed/test_data.pkl
-      - models/apartment_price_model.pkl
-      - src/evaluate.py
-    outs:
-      - reports/metrics.json
+      - models/apt_price_model.pkl
+      - models/preprocessor.pkl
+      - data/processed/train.csv
