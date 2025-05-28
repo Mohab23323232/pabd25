@@ -1,0 +1,44 @@
+schema: '2.0'
+stages:
+  download_data:
+    cmd: python src/parse_cian.py
+  process_data:
+    cmd: python src/process_data.py --input_path=data/raw --output_path=data/processed/train.csv
+    outs:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1107ba129b2eec456a5f7ba81a48384b
+      size: 13328
+  train_model:
+    cmd: python src/train_model.py --input_path=data/processed/train.csv --test_size=0.2
+      --model_path=models/apt_price_model.pkl --preprocessor_path=models/preprocessor.pkl
+    deps:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1107ba129b2eec456a5f7ba81a48384b
+      size: 13328
+    outs:
+    - path: models/apt_price_model.pkl
+      hash: md5
+      md5: cbefe228d8ee84d499fb16de8776a5b2
+      size: 2799457
+    - path: models/preprocessor.pkl
+      hash: md5
+      md5: 7fb1b340f0537d75d1ad5eef39299e0e
+      size: 2485
+  evaluate_model:
+    cmd: python src/evaluate_model.py --model_path=models/apt_price_model.pkl --preprocessor_path=models/preprocessor.pkl
+      --test_data_path=data/processed/train.csv
+    deps:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 1107ba129b2eec456a5f7ba81a48384b
+      size: 13328
+    - path: models/apt_price_model.pkl
+      hash: md5
+      md5: cbefe228d8ee84d499fb16de8776a5b2
+      size: 2799457
+    - path: models/preprocessor.pkl
+      hash: md5
+      md5: 7fb1b340f0537d75d1ad5eef39299e0e
+      size: 2485

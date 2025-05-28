@@ -1,7 +1,5 @@
 ## Housing Price Prediction Model
 
-Лекции и инструкции на семинары доступны на [Я.диске](https://disk.yandex.ru/d/vDb3HPumZ2xK0w)  
-
 ### Описание проекта
 Проект направлен на создание модели машинного обучения для прогнозирования цен на жилье. Модель использует различные характеристики объектов недвижимости для предсказания их рыночной стоимости.
 
@@ -11,21 +9,21 @@ housing_price_prediction/
 ├── data/
 │   ├── raw/                # Исходные данные
 │   ├── processed/          # Обработанные данные
-│   └── sample_submission.csv
 ├── models/                 # Обученные модели
-├── notebooks/             # Jupyter notebooks
-├── src/                   # Исходный код
-│   ├── data.py            # Обработка данных
-│   ├── models.py          # Модели машинного обучения
-│   └── utils.py           # Вспомогательные функции
-├── requirements.txt       # Требования к зависимостям
+├── notebooks/              # Jupyter notebooks
+├── service/                # Сервис предсказания цены на недвижимость
+│   ├── templates/          # Шаблоны для веб-приложения
+│   └── app.py              # Flask приложение
+├── src/                    # Исходный код
+│   ├── data.py             # Обработка данных
+│   ├── models.py           # Модели машинного обучения
+│   └── utils.py            # Вспомогательные функции
+├── requirements.txt        # Требования к зависимостям
 └── README.md
 ```
 
-### Требования
-```bash
-pip install -r requirements.txt
-```
+### Архитектура сервиса ПА
+![](assets/arch.png)
 
 ### Данные
 Используемые данные включают следующие характеристики:
@@ -62,10 +60,9 @@ jupyter notebook
 * **Neural Networks** - нейронные сети
 
 ### Метрики оценки
-* **Mean Absolute Error (MAE)**
-* **Mean Squared Error (MSE)**
-* **Root Mean Squared Error (RMSE)**
-* **R² Score**
+* **Mean Absolute Error (MAE): 22982013.91**
+* **Mean Squared Error (MSE): 41268623.41**
+* **R² Score: 0.6449**
 
 ### Результаты
 После обучения модели достигаются следующие результаты:
@@ -89,6 +86,6 @@ jupyter notebook
 
 ### Контакты
 Для вопросов и предложений обращайтесь:
-* Email: your.email@example.com
-* GitHub: @yourusername
-* LinkedIn: linkedin.com/in/yourusername
+* Email: ----
+* GitHub: @ak-karimzai
+* LinkedIn: linkedin.com/in/ak-karimzai/
