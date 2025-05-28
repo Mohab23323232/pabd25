@@ -6,3 +6,11 @@
 2025-05-25 16:48:28,684 - INFO - __main__ - Data after filtering: 399 rows
 2025-05-25 16:48:28,686 - INFO - __main__ - Processed data saved to: data/processed/train.csv
 2025-05-25 16:48:28,686 - INFO - __main__ - Data processing completed successfully.
+2025-05-28 13:26:04,518 - INFO - __main__ - Data processing started.
+2025-05-28 13:26:04,518 - INFO - __main__ - Loading CSV files from: c:\Users\Mohab\Desktop\pabd25\src\..\data\raw
+2025-05-28 13:26:04,519 - INFO - __main__ - Found 3 CSV files.
+2025-05-28 13:26:04,562 - INFO - __main__ - Total data loaded: 399 rows
+2025-05-28 13:26:04,562 - INFO - __main__ - Processing CIAN dataset...
+2025-05-28 13:26:04,565 - INFO - __main__ - Data after filtering: 399 rows
+2025-05-28 13:26:04,569 - INFO - __main__ - Processed data saved to: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-28 13:26:04,569 - INFO - __main__ - Data processing completed successfully.

@@ -9,3 +9,25 @@
 2025-05-25 16:48:40,929 - INFO - __main__ - Saving model artifacts to: models/apt_price_model.pkl
 2025-05-25 16:48:40,943 - INFO - __main__ - Model artifacts saved successfully.
 2025-05-25 16:48:40,943 - INFO - __main__ - Model training completed successfully.
+2025-05-28 13:26:36,780 - INFO - __main__ - Model training started.
+2025-05-28 13:26:36,781 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-28 13:26:36,798 - INFO - __main__ - Loaded data shape: (399, 6)
+2025-05-28 13:26:36,798 - INFO - __main__ - Preprocessing data...
+2025-05-28 13:26:36,800 - INFO - __main__ - Train size: 319, Test size: 80
+2025-05-28 13:26:36,805 - INFO - __main__ - Data preprocessed.
+2025-05-28 13:26:36,805 - INFO - __main__ - Training random_forest model...
+2025-05-28 13:26:36,896 - INFO - __main__ - Model trained successfully.
+2025-05-28 13:26:36,897 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-28 13:26:36,922 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-28 13:26:36,922 - INFO - __main__ - Model training completed successfully.
+2025-05-28 13:28:18,782 - INFO - __main__ - Model training started.
+2025-05-28 13:28:18,782 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-28 13:28:18,785 - INFO - __main__ - Loaded data shape: (399, 6)
+2025-05-28 13:28:18,785 - INFO - __main__ - Preprocessing data...
+2025-05-28 13:28:18,787 - INFO - __main__ - Train size: 319, Test size: 80
+2025-05-28 13:28:18,793 - INFO - __main__ - Data preprocessed.
+2025-05-28 13:28:18,793 - INFO - __main__ - Training random_forest model...
+2025-05-28 13:28:18,895 - INFO - __main__ - Model trained successfully.
+2025-05-28 13:28:18,895 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-28 13:28:18,913 - INFO - __main__ - Model artifacts saved successfully.
+2025-05-28 13:28:18,913 - INFO - __main__ - Model training completed successfully.

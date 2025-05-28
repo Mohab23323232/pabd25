@@ -52,3 +52,42 @@ FileNotFoundError: [Errno 2] No such file or directory: 'apt_price_model.pkl'
 2025-05-25 16:52:46,344 - INFO - __main__ - Making prediction...
 2025-05-25 16:52:46,349 - INFO - __main__ - Predicted price: 48,319,000 \u0440\u0443\u0431
 2025-05-25 16:52:46,349 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-28 13:27:27,564 - INFO - __main__ - Model evaluation started.
+2025-05-28 13:27:27,564 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-28 13:27:27,564 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-28 13:27:27,565 - CRITICAL - __main__ - Critical error during model evaluation: [Errno 2] No such file or directory: 'c:\\Users\\Mohab\\Desktop\\pabd25\\src\\..\\models\\apartment_price_model.pkl'
+Traceback (most recent call last):
+  File "c:\Users\Mohab\Desktop\pabd25\src\evaluate_model.py", line 86, in main
+    model, preprocessor = load_model_artifacts(args.model_path, args.preprocessor_path)
+                          ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Mohab\Desktop\pabd25\src\evaluate_model.py", line 25, in load_model_artifacts
+    model = joblib.load(model_path)
+  File "c:\Users\Mohab\Desktop\pabd25\venv\Lib\site-packages\joblib\numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\Mohab\\Desktop\\pabd25\\src\\..\\models\\apartment_price_model.pkl'
+2025-05-28 13:28:31,779 - INFO - __main__ - Model evaluation started.
+2025-05-28 13:28:31,779 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-28 13:28:31,779 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-28 13:28:31,896 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-28 13:28:31,898 - INFO - __main__ - Evaluating model...
+2025-05-28 13:28:31,910 - INFO - __main__ - Evaluation Results:
+2025-05-28 13:28:31,910 - INFO - __main__ - MAE: 11886396.09
+2025-05-28 13:28:31,910 - INFO - __main__ - RMSE: 25293089.95
+2025-05-28 13:28:31,910 - INFO - __main__ - R² Score: 0.9177
+2025-05-28 13:28:31,910 - INFO - __main__ - Making prediction...
+2025-05-28 13:28:31,916 - INFO - __main__ - Predicted price: 48,319,000 \u0440\u0443\u0431
+2025-05-28 13:28:31,916 - INFO - __main__ - Model evaluation completed successfully.
+2025-05-28 13:40:52,864 - INFO - __main__ - Model evaluation started.
+2025-05-28 13:40:52,864 - INFO - __main__ - Loading model from: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-05-28 13:40:52,864 - INFO - __main__ - Loading preprocessor from: c:\Users\Mohab\Desktop\pabd25\src\..\models\preprocessor.pkl
+2025-05-28 13:40:52,967 - INFO - __main__ - Loading test data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-05-28 13:40:52,970 - INFO - __main__ - Evaluating model...
+2025-05-28 13:40:52,982 - INFO - __main__ - Evaluation Results:
+2025-05-28 13:40:52,982 - INFO - __main__ - MAE: 11886396.09
+2025-05-28 13:40:52,982 - INFO - __main__ - RMSE: 25293089.95
+2025-05-28 13:40:52,982 - INFO - __main__ - R² Score: 0.9177
+2025-05-28 13:40:52,982 - INFO - __main__ - Making prediction...
+2025-05-28 13:40:52,989 - INFO - __main__ - Predicted price: 48,319,000 \u0440\u0443\u0431
+2025-05-28 13:40:52,992 - INFO - __main__ - Metrics saved in JSON, TXT, and CSV formats.
+2025-05-28 13:40:52,992 - INFO - __main__ - Model evaluation completed successfully.
