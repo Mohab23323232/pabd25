@@ -86,6 +86,7 @@ jupyter notebook
 
 ### Контакты
 Для вопросов и предложений обращайтесь:
-* Email: ----
-* GitHub: @ak-karimzai
-* LinkedIn: linkedin.com/in/ak-karimzai/
+* Email: mohab.1994@mail.ru
+* GitHub: @Mohab23323232
+* LinkedIn:...
+ 
