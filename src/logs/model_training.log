@@ -31,3 +31,25 @@
 2025-05-28 13:28:18,895 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
 2025-05-28 13:28:18,913 - INFO - __main__ - Model artifacts saved successfully.
 2025-05-28 13:28:18,913 - INFO - __main__ - Model training completed successfully.
+2025-06-04 15:16:11,786 - INFO - __main__ - Model training started.
+2025-06-04 15:16:11,786 - INFO - __main__ - Loading processed data from: c:\Users\Mohab\Desktop\pabd25\src\..\data\processed\processed_data.csv
+2025-06-04 15:16:11,806 - INFO - __main__ - Loaded data shape: (399, 6)
+2025-06-04 15:16:11,806 - INFO - __main__ - Preprocessing data...
+2025-06-04 15:16:11,809 - INFO - __main__ - Train size: 319, Test size: 80
+2025-06-04 15:16:11,814 - INFO - __main__ - Data preprocessed.
+2025-06-04 15:16:11,814 - INFO - __main__ - Training random_forest model...
+2025-06-04 15:16:11,913 - INFO - __main__ - Model trained successfully.
+2025-06-04 15:16:11,913 - INFO - __main__ - Saving model artifacts to: c:\Users\Mohab\Desktop\pabd25\src\..\models\apartment_price_model.pkl
+2025-06-04 15:16:11,929 - INFO - __main__ - Model artifacts saved successfully.
+2025-06-04 15:16:11,929 - INFO - __main__ - Model training completed successfully.
+2025-06-10 02:16:58,627 - INFO - __main__ - Model training started.
+2025-06-10 02:16:58,628 - INFO - __main__ - Loading processed data from: data/processed/train.csv
+2025-06-10 02:16:58,660 - INFO - __main__ - Loaded data shape: (399, 6)
+2025-06-10 02:16:58,660 - INFO - __main__ - Preprocessing data...
+2025-06-10 02:16:58,666 - INFO - __main__ - Train size: 319, Test size: 80
+2025-06-10 02:16:58,673 - INFO - __main__ - Data preprocessed.
+2025-06-10 02:16:58,674 - INFO - __main__ - Training random_forest model...
+2025-06-10 02:16:58,796 - INFO - __main__ - Model trained successfully.
+2025-06-10 02:16:58,796 - INFO - __main__ - Saving model artifacts to: models/apt_price_model.pkl
+2025-06-10 02:16:58,814 - INFO - __main__ - Model artifacts saved successfully.
+2025-06-10 02:16:58,814 - INFO - __main__ - Model training completed successfully.

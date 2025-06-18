@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Number Input Form</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <title>Оценка стоимости квартиры</title>
 </head>
 <body>
-
-  <div class="form-container">
-    <h2>Вводите параметры квартиры</h2>
+    <h1>Оценка стоимости квартиры</h1>
     <form id="predictForm">
-      <input type="number" name="area" step="any" required placeholder="Площадь квартиры, m²">
-      <input type="number" name="rooms_count" step="any" required placeholder="Количество комнат">
-      <input type="number" name="floors_count" step="any" required placeholder="Этажей в доме">
-      <input type="number" name="floor" step="any" required placeholder="Этаж квартиры">
-<!--      <input type="number" name="num2" placeholder="Number 2" required>-->
-<!--      <input type="number" name="num3" placeholder="Number 3" required>-->
-<!--      <input type="number" name="num4" placeholder="Number 4" required>-->
-      <br>
-      <button type="submit">Predict Price</button>
+        <label>Площадь (м²): <input type="number" name="area" step="any" required></label><br>
+        <label>Этаж: <input type="number" name="floor" required></label><br>
+        <label>Этажей всего: <input type="number" name="floors_count" required></label><br>
+        <label>Количество комнат: <input type="number" name="rooms_count" required></label><br>
+        <button type="submit">Предсказать</button>
     </form>
+    <p id="response"></p>
 
-    <div id="response"></div>
-  </div>
+    <script>
+        document.getElementById('predictForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
 
-  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+            const formData = new FormData(this);
+            const area = formData.get('area');
+            const floor = formData.get('floor');
+            const floors_count = formData.get('floors_count');
+            const rooms_count = formData.get('rooms_count');
+
+            const username = 'admin';
+            const password = '1234';
+            const auth = btoa(username + ":" + password);
+
+            try {
+                const res = await fetch('/api/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Basic ${auth}`
+                    },
+                    body: JSON.stringify({
+                        area: parseFloat(area),
+                        floor: parseInt(floor),
+                        floors_count: parseInt(floors_count),
+                        rooms_count: parseInt(rooms_count)
+                    })
+                });
+
+                const data = await res.json();
+
+                if (res.ok) {
+                    document.getElementById('response').textContent = `Цена квартиры: ${data.price} ₽`;
+                } else {
+                    document.getElementById('response').textContent = `Ошибка: ${data.error || "Неизвестная ошибка"}`;
+                }
+            } catch (err) {
+                document.getElementById('response').textContent = `Сетевая ошибка: ${err.message}`;
+            }
+        });
+    </script>
 </body>
 </html>
